@@ -10,21 +10,16 @@ public class PlayerController : MonoBehaviour
     private float horizontalInput;
     private float forwardInput;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
     {
         //help move and rotate vehicle
         horizontalInput = Input.GetAxis("Horizontal");
+
         forwardInput = Input.GetAxis("Vertical");
 
         //We'll move the vehicle forward
-
         transform.Rotate(Vector3.up, Time.deltaTime * turnSpeed * horizontalInput);
     }
 }
