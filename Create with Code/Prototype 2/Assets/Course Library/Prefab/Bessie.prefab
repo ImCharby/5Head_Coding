@@ -1539,6 +1539,7 @@ GameObject:
   - component: {fileID: 4043133377141288002}
   - component: {fileID: 4043133377015165874}
   - component: {fileID: -3860319253213234589}
+  - component: {fileID: -6540128367453140131}
   m_Layer: 0
   m_Name: Bessie
   m_TagString: Untagged
@@ -1592,7 +1593,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38fe609e5cd694714a737df543048c4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 7
 --- !u!114 &-3860319253213234589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1605,6 +1606,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 227202052f3ae4188a74fdecebb25eec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &-6540128367453140131
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4043133377150968162}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 14.089175, y: 29.806026, z: 47.293106}
+  m_Center: {x: -0.29863486, y: 15.16747, z: -0.28144956}
 --- !u!1 &4043133377150968306
 GameObject:
   m_ObjectHideFlags: 0
