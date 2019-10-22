@@ -1540,6 +1540,7 @@ GameObject:
   - component: {fileID: 4043133377015165874}
   - component: {fileID: -3860319253213234589}
   - component: {fileID: -6540128367453140131}
+  - component: {fileID: 5230263994995274226}
   m_Layer: 0
   m_Name: Bessie
   m_TagString: Untagged
@@ -1555,8 +1556,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4043133377150968162}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 3.3457665, y: 0, z: 21.55}
-  m_LocalScale: {x: 0.10436401, y: 0.09, z: 0.08320648}
+  m_LocalPosition: {x: 3.3469, y: 0.20313, z: 21.547}
+  m_LocalScale: {x: 0.09344466, y: 0.077529654, z: 0.07444208}
   m_Children:
   - {fileID: 4043133377151060770}
   m_Father: {fileID: 0}
@@ -1617,8 +1618,20 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 14.089175, y: 29.806026, z: 47.293106}
-  m_Center: {x: -0.29863486, y: 15.16747, z: -0.28144956}
+  m_Size: {x: 16.413681, y: 29.806026, z: 47.293106}
+  m_Center: {x: -0.109494194, y: 15.16747, z: -0.28144956}
+--- !u!114 &5230263994995274226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4043133377150968162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97d65f92c227b4a5b8005c3d72699928, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4043133377150968306
 GameObject:
   m_ObjectHideFlags: 0
@@ -1861,8 +1874,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4043133377150975354}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.00000020696, z: -0.3856}
-  m_LocalScale: {x: 1, y: 1, z: 2.3231}
+  m_LocalPosition: {x: 0, y: -2.8e-14, z: -0.3856}
+  m_LocalScale: {x: 0.87731, y: 1, z: 2.3231}
   m_Children: []
   m_Father: {fileID: 4043133377151060770}
   m_RootOrder: 4

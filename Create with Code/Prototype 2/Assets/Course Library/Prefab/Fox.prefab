@@ -25,8 +25,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4866220050760665180}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.13337907, z: -0.05985334}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.000000013255, y: 0.13337907, z: -0.05985334}
+  m_LocalScale: {x: 0.7804549, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4866220050760995582}
   m_RootOrder: 1
@@ -94,6 +94,7 @@ GameObject:
   - component: {fileID: 4866220050633221213}
   - component: {fileID: 1949519426008171183}
   - component: {fileID: 7902048261066597600}
+  - component: {fileID: 3346441635763358870}
   m_Layer: 0
   m_Name: Fox
   m_TagString: Untagged
@@ -109,8 +110,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4866220050760665596}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -3.99, y: 0, z: 22.99}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalPosition: {x: -3.9884, y: 0, z: 22.99}
+  m_LocalScale: {x: 11.95492, y: 10, z: 10}
   m_Children:
   - {fileID: 4866220050761040888}
   - {fileID: 4866220050761119048}
@@ -182,8 +183,20 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.074396804, y: 0.18702412, z: 0.29460225}
-  m_Center: {x: -0.0015923738, y: 0.09554048, z: 0.011428619}
+  m_Size: {x: 0.10940435, y: 0.18702412, z: 0.29460225}
+  m_Center: {x: 0.00082849263, y: 0.09554048, z: 0.011428619}
+--- !u!114 &3346441635763358870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4866220050760665596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97d65f92c227b4a5b8005c3d72699928, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4866220050760680388
 GameObject:
   m_ObjectHideFlags: 0
