@@ -23,7 +23,6 @@ public class PlayerController : MonoBehaviour
         hasPowerup = false;
         powerupIndicator.gameObject.SetActive(false); }
 
-
     private void OnCollisionEnter(Collision collision) {
         if (collision.gameObject.CompareTag("Enemy") && hasPowerup) {
 
@@ -43,12 +42,9 @@ public class PlayerController : MonoBehaviour
         focalPoint = GameObject.Find("Focal Point"); }
 
     // Update is called once per frame
-    void Update()
-    {
+    void Update() {
         float forwardInput = Input.GetAxis("Vertical");
         playerRb.AddForce(focalPoint.transform.forward * speed * forwardInput);
 
-        powerupIndicator.transform.position = transform.position + new Vector3(0, 1f, 0);
-        
-    }
+        powerupIndicator.transform.position = transform.position + new Vector3(0, 1f, 0); }
 }
